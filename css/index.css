@@ -1,0 +1,70 @@
+:root {
+  --color1: #92977E; /*achtergrond kleur*/
+  --color2: #E6E18F; /*kleur van alle links text en header text*/
+  --color3: #291F1E; /*nav achtergrond kleur*/
+  --color4: #F64740; /*kleur van nav berder(die witte strepen boven en onder die links)*/
+  --color5: #A3333D;  /*kleur van nav berder(die witte strepen boven en onder die links)*/
+  --color6: #F4FFFD;  /*kleur van de allinia text*/
+  --color8: grey; /*achtergrond kleur <a>tjes*/
+  --color9: #A3333D; /*kleur van de th*/
+  --color10: black; /*kleur van de tr*/
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Cool-Backgrounds-Wallpapers.jpg);
+}
+.body {
+  width: 90%;
+}
+header {
+  padding-top: 40px;
+  color: var(--color2);
+  text-align: center;
+  font-size: 30px;
+}
+
+img {
+  border: 3px solid var(--color4);
+  position: relative;
+  margin-top: 30px;
+  box-sizing: border-box;
+
+}
+
+footer {
+  width: 100%;
+  border-top: 3px solid var(--color4);;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  color: var(--color2);
+  background-color: var(--color8);
+  display: block;
+  text-decoration: none;
+}
+
+article {
+  color: var(--color6);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  object-position: center;
+}
+article > p {
+  margin: 0px;
+}
+article > h2 {
+  font-size: 20px;
+}
+article > table {
+  object-position: center;
+  display: inline-block;
+}
+article > video {
+  border: 3px solid var(--color4);
+}

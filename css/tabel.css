@@ -1,0 +1,13 @@
+th {
+  border: solid 2px var(--color9);
+  padding: 3px;
+}
+table {
+  background-color: var(--color10);
+  border: solid 2px var(--color9);
+  box-sizing: border-box;
+  position: relative;
+}
+#table {
+  width: 90%;
+}

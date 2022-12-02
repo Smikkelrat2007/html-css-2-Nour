@@ -1,0 +1,34 @@
+
+
+.link {
+  position:relative;
+  top: 0px;
+  width: 10%;
+  float: left;
+  min-height: 100vh;
+  transition: width 0.5s;
+  background-color: var(--color3);
+  margin-right: 0px;
+
+}
+.link:hover{
+  width: 20%;
+}
+.link > a {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  display: block;
+
+  border-top: 3px solid var(--color4);
+  border-bottom: 3px solid var(--color4);
+  text-align: center;
+  background-color: var(--color8)
+}
+a {
+  text-decoration: none;
+  color: var(--color2);
+}
+.reload{
+  color: var(--color5);
+}
